@@ -1,3 +1,5 @@
+var has_key = false;
+
 right_key = keyboard_check(ord("D"));
 left_key = keyboard_check(ord("A"));
 up_key = keyboard_check(ord("W"));
@@ -17,6 +19,19 @@ if instance_exists(obj_pauser)
     yspd = 0;
 }
 
+if instance_exists(obj_key_item)
+{
+    has_key = false;
+}
+else 
+{
+    has_key = true;
+}
+
+if has_key = true && keyboard_check_pressed(ord("E"))
+{
+    instance_create_layer(obj_player.x +10,obj_player.y, "Instances", obj_key_item);
+}
 //set sprite
 mask_index = spr_player_down;
 if yspd == 0

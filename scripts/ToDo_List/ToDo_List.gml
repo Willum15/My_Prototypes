@@ -7,13 +7,12 @@
 // 2) Dialogue system
 //    - Dialogue box - 
 //    - Multiple lines -
-//    - Typewriter effect
+//    - Typewriter effect - 
 //    - Press key to continue -
-//    - Full dialogue with me and NPC (with names)
 
 // 3) Pickup item
-//    - Key object
-//    - Pick up with E or on collision
+//    - Key object - 
+//    - Pick up with E or on collision - (Kinda, currently instace_destroy)
 //    - Add key to inventory/global variable
 
 // 4) Locked door
