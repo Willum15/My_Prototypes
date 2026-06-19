@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ToDo_List",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ToDo_List",
+  "parent":{
+    "name":"To-Do",
+    "path":"folders/To-Do.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
