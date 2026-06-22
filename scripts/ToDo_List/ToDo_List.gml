@@ -13,11 +13,11 @@
 // 3) Pickup item
 //    - Key object - 
 //    - Pick up with E or on collision - (Kinda, currently instace_destroy)
-//    - Add key to inventory/global variable
+//    - Add key to inventory/global variable - 
 
 // 4) Locked door
-//    - Door checks if player has key
-//    - If yes, enter house
+//    - Door checks if player has key -
+//    - If yes, enter house -
 //    - If no, show locked message
 
 // 5) Inventory / pause menu
